@@ -1,0 +1,13 @@
+name: ds-nlp-demo-sentiment-analysis
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - pip
+  - python=3.8
+  - pytorch
+  - transformers
+  - flask # added to serve the environment
+  - pytest # for additional unit testing
+  - requests # for additional unit testing
